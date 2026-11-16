@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+body {
+    background: #09090b;
+    color: #09de4c;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.etiqueta {
+    color: #0f6dc5;
+
+}
+
+
+h1 {
+    font-size: 52px;
+    font-weight: 1000;
+    color: #fafafa;
+    flex-direction: column;
+    
+    
+}
+
+h2 {
+    padding: 20px;
+}
+
+span{
+    color: #a78bfa;
+}
+
+.subtitulo {
+    color:antiquewhite;
+
+}
+
+.caixa-entrada {
+    width: 620px;
+    background-color: #141419;
+    padding: 12px;
+    border-radius: 20px;
+    margin-top: 30px;
+    display: flex;
+
+}
+textarea {
+    width: 80%;
+    resize: none;
+    outline: none;
+    background-color: #141419;
+    padding: 8px;
+    color: floralwhite;
+    font-size: 15px;
+    border: none;
+
+
+}
+
+button {
+    width: 20;
+    padding: 10px 35px;
+    color: floralwhite;
+    background-color: #09de4c;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 10px;
+
+
+}
+.caixa-resultado {
+    width: 1200px;
+    display: flex;
+    margin-top: 40px;
+    padding: 24px;
+    background-color: #111114;
+    border-radius: 12px;
+    border: 1px solid #09de4c;
+    gap: 24px;
+}
+.bloco-codigo {
+    width: 30%;
+    background-color: #0c0c0f;
+    padding: 20px;
+    font-size: 12px;
+    color: #22c55e;
+    white-space: pre-wrap;
+    overflow: auto;
+    height: 600px;
+    border-radius: 12px;
+    border: 1px solid #09de4c;
+
+    
+
+}
+.blocoo-site {
+    width: 70%;
+    height: 600px;
+    border: 1px solid #09de4c;
+    border-radius: 12px;
+    background-color: #39395c;
+    
+}
